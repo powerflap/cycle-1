@@ -45,8 +45,8 @@ public class Main {
         System.out.println("Задача 9");
         int total2 = 0;
 
-        for (k = 1; k < 12; k++) {
-            total2 = total2 + total2 / 100;
+        for (k = 1; k <= 12; k++) {
+            total2 += total2 * 0.01;
             total2 = total2 + can;
             System.out.println("Месяц " + k + " сумма накоплений равна " + total2 + " рублей");
         }
